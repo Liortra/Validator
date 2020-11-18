@@ -1,14 +1,13 @@
-# Validator
-<img src="imageValidator/validatorLogo.jpg" width="100" height="100"> 
+# Validator  <img src="imageValidator/validatorLogo.jpg" width="100"> 
 [![](https://jitpack.io/v/Liortra/Validator.svg)](https://jitpack.io/#Liortra/Validator)
-
-<img src="imageValidator/validator.jpg" width="100" height="100"> 
 
 ## Table of Contents
 * [Explanation](https://github.com/Liortra/Validator/blob/master/README.md#explanation)
 * [Setup](https://github.com/Liortra/Validator/blob/master/README.md#setup)
 * [How To Use](https://github.com/Liortra/Validator/blob/master/README.md#how-to-use)
 * [License](https://github.com/Liortra/Validator/blob/master/README.md#license)
+
+<img src="imageValidator/validator.jpg" width="200"> 
 
 ## Explanation
 A simple library that help you to vaild your registration forms.
