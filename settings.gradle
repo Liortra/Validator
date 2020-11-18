@@ -1,0 +1,3 @@
+include ':validatorLibrary'
+include ':app'
+rootProject.name = "Validator"

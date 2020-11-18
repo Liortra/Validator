@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_TXT_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/validator"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/main_TXT_FName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/main_TXT_headline"
+        android:hint="@string/first_name"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/main_TXT_LName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/main_TXT_FName"
+        android:hint="@string/last_name"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/main_TXT_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/main_TXT_LName"
+        android:hint="@string/email"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/main_TXT_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_below="@+id/main_TXT_Email"
+        android:hint="@string/phone_number"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/main_TXT_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/main_TXT_Phone"
+        android:hint="@string/password"/>
+
+    <Button
+        android:id="@+id/main_BTN_click"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/main_TXT_Password"
+        android:layout_centerHorizontal="true"
+        android:text="Click"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/main_TXT_pass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conditions1"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:id="@+id/main_TXT_pass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conditions2"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:id="@+id/main_TXT_pass3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conditions3"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

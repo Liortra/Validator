@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Validator</string>
+    <string name="validator">Validator</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="conditions1">1. A password must have at least eight characters.</string>
+    <string name="conditions2">2. A password consists of only letters and digits.</string>
+    <string name="conditions3">3. A password must contain at least two digits</string>
+</resources>
